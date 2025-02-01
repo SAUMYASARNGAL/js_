@@ -24,3 +24,24 @@ data is categorised into*/
     console.log("helloo")
   }
   console.log(typeof myfunc)
+
+
+//++++++++++++++++++++++++++++++++++++++++++
+//Memory
+
+//Stack(primitive)--We get copy of the change
+let myname="Saumya"
+let anothername=myname
+anothername="Khushi"
+console.log(myname)
+console.log(anothername)
+
+//Heap(Non primitive)--We get reference,so change in original value
+let userone={
+  email:"saumya@gmail.com",
+  upi:123
+}
+let usertwo=userone
+usertwo.email="sarngal@gmail.com"
+console.log(userone.email)
+console.log(usertwo.email)
