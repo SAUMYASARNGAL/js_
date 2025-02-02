@@ -22,7 +22,7 @@ console.log(Math.floor(Date.now()/1000))//we convert to second by /1000
 let newdate=new Date()
 console.log(newdate)
 console.log(newdate.getMonth()+1)
-console.log(newdate.getDay())
+console.log(newdate.getDay())//day of week{0,1,2,3,4,5,6}from sunday to monday
 
 newdate.toLocaleString('default',{
     weekday:"long"
