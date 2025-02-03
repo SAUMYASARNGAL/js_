@@ -90,4 +90,37 @@ console.log(Object.values(user))
 console.log(user.hasOwnProperty("isloggedin"))
 
 
+const course={
+    coursename:"js course",
+    price:999,
+    courseinstructor:"saumya"
+}
+//course.coursename
+const{courseinstructor:instructor}=course
+console.log(instructor)
+
+
+
+
+
+//To api,   values come in form of json(js object notation)
+//Eg:
+{
+    "name":"saumya",
+    "coursename":"heelyaa",
+    "price":"free"
+}
+
+[
+    {},
+    {},
+    {}
+]
+//use API random user generator for help
+
+
+
+
+
+
 
