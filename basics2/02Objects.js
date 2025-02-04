@@ -104,7 +104,7 @@ console.log(instructor)
 
 
 //To api,   values come in form of json(js object notation)
-//Eg:
+/*Eg:
 {
     "name":"saumya",
     "coursename":"heelyaa",
@@ -117,6 +117,7 @@ console.log(instructor)
     {}
 ]
 //use API random user generator for help
+*/
 
 
 
