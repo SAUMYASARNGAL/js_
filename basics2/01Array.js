@@ -3,6 +3,7 @@ const myarray=[1,2,3,"saumya"]
 console.log(myarray[0])
 //array copy operation make shallow copy(refernce)
 
+
 const myheroes=["spiderman","shaktiman"]
 
 const array2=new Array(1,2,3,4,5)
@@ -44,7 +45,7 @@ const marvelheroes=["thor","ironman","spiderman"]
 const dcheroes=["superman","flash","batman"]
 //
 //marvelheroes.push(dcheroes)//add the array within
-//const st=marvelheroes.concat(dcheroes)//adds but donot modify original
+const st=marvelheroes.concat(dcheroes)//adds but donot modify original
 //console.log(marvelheroes)
 //console.log(st)
 

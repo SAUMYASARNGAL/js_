@@ -20,5 +20,5 @@ let isloggin=false
 //symbol =>unique
 
 //object
-console.log(typeof undefine) //undefined
+console.log(typeof undefined) //undefined
 console.log(typeof null) //object

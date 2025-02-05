@@ -14,7 +14,7 @@ console.log(gamename.charAt(2))
 console.log(gamename.indexOf("s"))
 const newstring=gamename.substring(0,4)//(start to end-1)//for negative take from 0
 console.log(newstring)
-const otherstring=gamename.slice(-3,7)//(start to end-1)in negative it starts from reverse & there index is from -1
+const otherstring=gamename.slice(-4,-2)//(start to end-1)in negative it starts from reverse & there index is from -1
 console.log(otherstring)
 
 const newstringone ="  saumya  "
