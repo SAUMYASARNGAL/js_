@@ -1,0 +1,72 @@
+<!---DOCUMENT OBJECT MODEL-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Learning</title>
+    <style>
+        .bg-black{
+        background-color:#212121;
+        color:#fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id="tile" class="heading">DOM 
+            <span style="display:none">with saumya</span>
+        </h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+    </div>
+    <!--All I have written here is what we can write at console to do instant changes(DOM)-->
+    <script>
+        //Using id
+        document.getElementById('tile').id
+        document.getElementById('tile').class //undefined
+        document.getElementById('tile')
+        document.getElementById('tile').className
+        document.getElementById('tile').getAttribute
+        document.getElementById('tile').getAttribute()//error        
+        document.getElementById('tile').getAttribute('id')        
+        document.getElementById('tile').getAttribute('class')        
+        document.getElementById('tile').getAttribute('class','test')        
+        document.getElementById('tile').getAttribute('class','test heading')        
+        document.getElementById('tile')
+        tile.style.backgroundColor='purple'
+        tile.style.padding='15px'
+        tile.style.borderRadius='15px'
+        tile 
+        tile.textContent//Shows all text content
+        tile.innerText//Gives the heading only hide extra if hidden property applied,selected nodes
+        tile.innerHTML//Shows all in detail,html nodes
+        //Using class
+        document.getElementsByClassName('heading')
+        //------etc...............
+
+        //QuerySelector
+        document.querySelector('h2')
+        document.querySelector('#tile')
+        document.querySelector('.heading')
+        document.querySelector('input[type="password"]')
+        document.querySelector('p:first-child')
+        
+
+
+        </script>
+    
+</body>
+</html>
+<!--console.log(document)-->
+<!--console.dir()--gives hidden info-->
+
+ 
